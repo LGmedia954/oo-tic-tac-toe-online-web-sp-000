@@ -114,7 +114,12 @@ def winner
   end
 end
 
-
+def play
+  until over? == true
+    turn
+  end
+  
+  
 
   
   
