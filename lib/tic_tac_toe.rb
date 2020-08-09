@@ -28,8 +28,8 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(index, player_token)
-  @board[index] = player_token
+def move(index, token)
+  @board[index] = token
 end
 
 def position_taken?(index)
