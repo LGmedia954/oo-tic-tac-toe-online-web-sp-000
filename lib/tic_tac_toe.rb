@@ -71,7 +71,7 @@ def won?
     position_2 = @board[index_1]
     position_3 = @board[index_2]
 
-    if position_taken?(combo[0]) && @board[combo[0]] && @board[combo[1]]
+    if position_taken?(combo[0]) && @board[combo[0]] && @board[combo[1]] && @board[combo[1]] == @board[combo[2]]
       
       return combo
     end
