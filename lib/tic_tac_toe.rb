@@ -84,10 +84,7 @@ end
 
 def winner
   if combo = won?
-  if index == false
-    return nil
-  else
-    if @board[index[0]] == "X"
+  @board[index[0]] == "X"
       return "X"
     else
       return "O"
