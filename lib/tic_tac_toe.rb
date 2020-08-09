@@ -83,8 +83,7 @@ def over?
 end
 
 def winner
-  index = []
-  index = won?
+  if combo = won?
   if index == false
     return nil
   else
