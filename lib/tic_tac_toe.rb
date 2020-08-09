@@ -77,7 +77,7 @@ def won?
       return win_combo
     end
   }
-  return false
+  return combo
 end
 
 def full?
