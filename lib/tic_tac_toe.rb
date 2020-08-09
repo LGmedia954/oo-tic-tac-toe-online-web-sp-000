@@ -81,7 +81,7 @@ def won?
 end
 
 def full?
-  @board.all? {|index| index == "X" || index == "O"}
+  @board.all? {|space| space != " "}
 end
 
 def draw?
