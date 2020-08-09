@@ -107,7 +107,7 @@ def winner
 end
 
 def play
-  turn until over? == true
+  turn until over?
     turn
   end
 end
