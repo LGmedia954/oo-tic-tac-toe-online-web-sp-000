@@ -81,7 +81,7 @@ def won?
 end
 
 def full?
-  @board.all? {|space| space != " "}
+  @board.all?{|space| space != " "}
 end
 
 def draw?
