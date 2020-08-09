@@ -62,7 +62,7 @@ def current_player
 end
  
 def won?
-  WIN_COMBINATIONS.each {|win_combo|
+  WIN_COMBINATIONS.any? do {|combo|
     index_0 = win_combo[0]
     index_1 = win_combo[1]
     index_2 = win_combo[2]
