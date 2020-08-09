@@ -90,10 +90,6 @@ end
 
 def over?
   won? || draw?
-    return true
-  else
-    return false
-  end
 end
 
 def winner
