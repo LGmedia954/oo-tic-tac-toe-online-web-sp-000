@@ -84,10 +84,7 @@ end
 
 def winner
   if combo = won?
-  @board[combo[0]] == "X"
-      return "X"
-    else
-      return "O"
+  @board[combo[0]]
     end
   end
 end
