@@ -63,7 +63,7 @@ end
  
 def won?
   WIN_COMBINATIONS.any? do {|combo|
-    index_0 = win_combo[0]
+    index_0 = win_
     index_1 = win_combo[1]
     index_2 = win_combo[2]
 
@@ -71,10 +71,7 @@ def won?
     position_2 = @board[index_1]
     position_3 = @board[index_2]
 
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return win_combo
-    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      return win_combo
+    if position_taken(combo[0]) && 
       
       return combo
     end
