@@ -9,7 +9,11 @@ class TicTacToe
   end
   
   def initialize(board = nil)
+    @board = boar || Array.new(9, " ")
+  end
   
+  def current_player
+    
   
   
   
