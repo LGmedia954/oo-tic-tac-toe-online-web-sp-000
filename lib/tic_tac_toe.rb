@@ -75,8 +75,10 @@ def won?
       return win_combo
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combo
+      
+      return combo
     end
-  return combo
+  
 end
 
 def full?
