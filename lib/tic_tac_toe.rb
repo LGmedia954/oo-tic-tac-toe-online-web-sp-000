@@ -67,7 +67,7 @@ def won?
       
       return combo
     end
-  
+  end
 end
 
 def full?
